@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true" name="D:/Users/IDEA_/test">
+
+        <classes>
+            <class name="com.example.test.testngTest">
+                <methods>
+<!--                    <parameter name="vip" value="${vip}"/>-->
+<!--                    <parameter name="cabinType" value="${cabinType}"/>-->
+<!--                    <parameter name="ticketType" value="${ticketType}"/>-->
+<!--                    <parameter name="ans" value="${ans}"/>-->
+                    <include name="calBigWeightTest"/>
+                </methods>
+<!--                <methods>-->
+<!--                    <parameter name="vip" value="SSVIP"/>-->
+<!--                    <parameter name="cabinType" value="FIRST"/>-->
+<!--                    <parameter name="ticketType" value="ADULT"/>-->
+<!--                    <parameter name="ans" value="70"/>-->
+<!--                    <include name="calBigWeightTest"/>-->
+<!--                   -->
+<!--                </methods>-->
+
+<!--                <methods>-->
+<!--                    <parameter name="stageList" value="[2, 23, 32, 45]"/>-->
+<!--                    <parameter name="priceList" value="[3600, 3900, 5200]"/>-->
+<!--                    <parameter name="id" value="-1"/>-->
+<!--                    <parameter name="packageType" value="one"/>-->
+<!--                    <parameter name="weight" value="25"/>-->
+<!--                    <parameter name="ans_" value="3900"/>-->
+<!--                    <include name="calSpecialTest"/>-->
+<!--                </methods>-->
+
+            </class>
+        </classes>
+    </test>
+</suite>
