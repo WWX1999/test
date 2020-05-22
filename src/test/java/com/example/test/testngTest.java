@@ -37,13 +37,13 @@ public class testngTest {
         Assert.assertEquals(ComputeService.calBigWeight(vip1, cabinType1, ticketType1), ans);
     }
 
-    @Parameters({"cabinType","len","freeZone","section","ans"})
-    @Test
-    public void calculOverNumTest(String cabinType, int len, String freeZone, String section, float ans) {
-        CabinType cabinType1 = CabinType.valueOf(cabinType);
-        FreeZone freeZone1 =FreeZone.valueOf(freeZone);
-        FlightInterval section1 = FlightInterval.valueOf(section);
-        BigDecimal ans1 = new BigDecimal(ans).setScale(2);
-        Assert.assertEquals(InternationalOver.calculOverNum(cabinType1, len, freeZone1, section1), ans1);
-    }
+//    @Parameters({"cabinType","len","freeZone","section","ans"})
+//    @Test
+//    public void calculOverNumTest(String cabinType, int len, String freeZone, String section, float ans) {
+//        CabinType cabinType1 = CabinType.valueOf(cabinType);
+//        FreeZone freeZone1 =FreeZone.valueOf(freeZone);
+//        FlightInterval section1 = FlightInterval.valueOf(section);
+//        BigDecimal ans1 = new BigDecimal(ans).setScale(2);
+//        Assert.assertEquals(InternationalOver.calculOverNum(cabinType1, len, freeZone1, section1), ans1);
+//    }
 }
