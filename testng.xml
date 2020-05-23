@@ -4,35 +4,18 @@
 
     <test verbose="2" preserve-order="true" name="D:/Users/IDEA_/test">
 
+<!--        <parameter name="vip" value="${vip}"/>-->
+<!--        <parameter name="type" value="${type}"/>-->
+<!--        <parameter name="classes" value="${classes}"/>-->
+<!--        <parameter name="price" value="${price}"/>-->
+<!--        <parameter name="freezone" value="${freezone}"/>-->
+<!--        <parameter name="section" value="${section}"/>-->
+<!--        <parameter name="jsonText" value="${jsonText}"/>-->
+<!--        <parameter name="specialText" value="${specialText}"/>-->
+<!--        <parameter name="ans" value="${ans}"/>-->
         <classes>
-            <class name="com.example.test.testngTest">
-                <methods>
-<!--                    <parameter name="vip" value="${vip}"/>-->
-<!--                    <parameter name="cabinType" value="${cabinType}"/>-->
-<!--                    <parameter name="ticketType" value="${ticketType}"/>-->
-<!--                    <parameter name="ans" value="${ans}"/>-->
-                    <include name="calBigWeightTest"/>
-                </methods>
-<!--                <methods>-->
-<!--                    <parameter name="vip" value="SSVIP"/>-->
-<!--                    <parameter name="cabinType" value="FIRST"/>-->
-<!--                    <parameter name="ticketType" value="ADULT"/>-->
-<!--                    <parameter name="ans" value="70"/>-->
-<!--                    <include name="calBigWeightTest"/>-->
-<!--                   -->
-<!--                </methods>-->
 
-<!--                <methods>-->
-<!--                    <parameter name="stageList" value="[2, 23, 32, 45]"/>-->
-<!--                    <parameter name="priceList" value="[3600, 3900, 5200]"/>-->
-<!--                    <parameter name="id" value="-1"/>-->
-<!--                    <parameter name="packageType" value="one"/>-->
-<!--                    <parameter name="weight" value="25"/>-->
-<!--                    <parameter name="ans_" value="3900"/>-->
-<!--                    <include name="calSpecialTest"/>-->
-<!--                </methods>-->
-
-            </class>
+            <class name="com.example.test.testngTest"/>
         </classes>
     </test>
 </suite>

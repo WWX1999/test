@@ -90,7 +90,8 @@
                 <configuration>
                     <suiteXmlFiles>
                         <!--可以添加多个xml文件-->
-                        <file>testng.xml</file>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <file>${testng.xml}</file>
                     </suiteXmlFiles>
 
                 </configuration>
