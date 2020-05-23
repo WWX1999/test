@@ -4,19 +4,15 @@
 
 <!--    <parameter name="" value=""></parameter>-->
     <test name="test1">
-
-<!--        <parameter name="vip" value="${vip}"/>-->
-<!--        <parameter name="type" value="${type}"/>-->
-<!--        <parameter name="classes" value="${classes}"/>-->
-<!--        <parameter name="price" value="${price}"/>-->
-<!--        <parameter name="freezone" value="${freezone}"/>-->
-<!--        <parameter name="section" value="${section}"/>-->
-<!--        <parameter name="jsonText" value="${jsonText}"/>-->
-<!--        <parameter name="specialText" value="${specialText}"/>-->
-<!--        <parameter name="ans" value="${ans}"/>-->
         <classes>
-
             <class name="com.example.test.testngTest"/>
         </classes>
     </test>
+
+    <test name="test2">
+        <classes>
+            <class name="com.example.test.service.ComputeServiceTest"/>
+        </classes>
+    </test>
+
 </suite>
