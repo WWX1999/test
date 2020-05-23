@@ -2,7 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
 
-    <test verbose="2" preserve-order="true" name="D:/Users/IDEA_/test">
+<!--    <parameter name="" value=""></parameter>-->
+    <test verbose="2" preserve-order="true" name="${test}">
 
 <!--        <parameter name="vip" value="${vip}"/>-->
 <!--        <parameter name="type" value="${type}"/>-->
