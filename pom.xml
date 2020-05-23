@@ -92,7 +92,10 @@
                         <!--可以添加多个xml文件-->
                         <!--suppress UnresolvedMavenProperty -->
                         <file>${testngxml}</file>
+
                     </suiteXmlFiles>
+                    <!--suppress UnresolvedMavenProperty -->
+                    <test>${testcase}</test>
 
                 </configuration>
             </plugin>
