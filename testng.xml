@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="testController">
+        <classes>
+            <class name="com.example.test.ControllerTest">
+                <methods>
+                    <include name="calBigWeightTest"/>
+                    <include name="calculOverNumTest"/>
+                    <include name="controllerTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="testngTest">
+        <classes>
+            <class name="com.example.test.testngTest">
+                <methods>
+                    <include name="calBigWeightTest"/>
+                    <include name="calSpecialTest"/>
+                    <include name="calculateCostTest"/>
+                    <include name="calculOverNumTest"/>
+                    <include name="pacageClassfyTest"/>
+                    <include name="calculDataTest"/>
+                    <include name="calculOverWeightTest"/>
+                    <include name="computePriceTest"/>
+                    <include name="computeTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
