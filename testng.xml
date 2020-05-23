@@ -19,9 +19,4 @@
             <class name="com.example.test.testngTest"/>
         </classes>
     </test>
-    <test name="test2">
-        <classes>
-            <class name="com.example.test.service.ComputeServiceTest"/>
-        </classes>
-    </test>
 </suite>
