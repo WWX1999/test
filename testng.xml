@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
 
 <!--    <parameter name="" value=""></parameter>-->
-    <test verbose="2" preserve-order="true" name="${test}">
+    <test verbose="2" preserve-order="true" name="test1">
 
 <!--        <parameter name="vip" value="${vip}"/>-->
 <!--        <parameter name="type" value="${type}"/>-->
