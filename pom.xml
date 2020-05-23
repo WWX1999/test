@@ -92,7 +92,7 @@
                     <suiteXmlFiles>
                         <!--可以添加多个xml文件-->
                         <!--suppress UnresolvedMavenProperty -->
-                        <file>${suiteXmlFile}</file>
+                        <file>${XMLFILE}</file>
                     </suiteXmlFiles>
                     <!--suppress UnresolvedMavenProperty -->
 
