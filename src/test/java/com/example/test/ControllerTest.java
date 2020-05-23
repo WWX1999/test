@@ -16,7 +16,7 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-public class testngTest {
+public class ControllerTest {
     @DataProvider(name = "calBigWeightData")
     public static Object[][] calBigWeightData() {
         return new Object[][]{

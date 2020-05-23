@@ -3,15 +3,9 @@
 <suite name="All Test Suite">
 
 <!--    <parameter name="" value=""></parameter>-->
-    <test name="test1">
+    <test name="testIndexController">
         <classes>
-            <class name="com.example.test.testngTest"/>
-        </classes>
-    </test>
-
-    <test name="test2">
-        <classes>
-            <class name="com.example.test.service.ComputeServiceTest"/>
+            <class name="com.example.test.ControllerTest"/>
         </classes>
     </test>
 
